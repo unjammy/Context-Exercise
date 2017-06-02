@@ -23,7 +23,7 @@ console.log( add(0, 1)  );
 console.log( add.call(voltron, 2, 3)  );
 
 // #3
-console.log( add.apply(optimus, 20, 30)  );
+console.log( add.apply(optimus, [20, 30])  );
 
 // #4
 var calculate = add.bind(bender, "drinking ", "beer");
